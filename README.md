@@ -25,3 +25,9 @@ If you are developing a production application, we recommend updating the config
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+---
+
+- dipendenze di redux installate con `npm i @reduxjs/toolkit`, poi `npm i react-redux`
+
+i due file all'interno di redux (non la cartella slices!) e il codice di main.tsx possono essere riutilizzati nei vari progetti
